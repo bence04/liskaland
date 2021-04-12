@@ -4391,60 +4391,60 @@ img{
 	box-shadow: 0 20px 30px rgba(0,0,0,.10);
 }
 
-.schedule-tabs .tab-buttons li:nth-child(4n + 1) .day{
+.schedule-tabs .tab-buttons li.yellow .day{
 	background-color: #ffc20b;
 }
 
-.schedule-tabs .tab-buttons li:nth-child(4n + 2) .day{
+.schedule-tabs .tab-buttons li.green .day{
 	background-color: #C9E265;
 }
 
-.schedule-tabs .tab-buttons li:nth-child(4n + 3) .day{
+.schedule-tabs .tab-buttons li.blue .day{
 	background-color: #3860A5;
 }
 
-.schedule-tabs .tab-buttons li:nth-child(4n + 4) .day{
+.schedule-tabs .tab-buttons li.red .day{
 	background-color: #FF5757;
 }
 
 
-.schedule-tabs .tab-buttons li:nth-child(4n + 1) .month,
-.schedule-tabs .tab-buttons li:nth-child(4n + 1) .date{
+.schedule-tabs .tab-buttons li.yellow .month,
+.schedule-tabs .tab-buttons li.yellow .date{
 	color: #ffc20b;
 }
 
-.schedule-tabs .tab-buttons li:nth-child(4n + 2) .month,
-.schedule-tabs .tab-buttons li:nth-child(4n + 2) .date{
+.schedule-tabs .tab-buttons li.green .month,
+.schedule-tabs .tab-buttons li.green .date{
 	color: #C9E265;
 }
 
-.schedule-tabs .tab-buttons li:nth-child(4n + 3) .month,
-.schedule-tabs .tab-buttons li:nth-child(4n + 3) .date{
+.schedule-tabs .tab-buttons li.blue .month,
+.schedule-tabs .tab-buttons li.blue .date{
 	color: #3860A5;
 }
 
-.schedule-tabs .tab-buttons li:nth-child(4n + 4) .month,
-.schedule-tabs .tab-buttons li:nth-child(4n + 4) .date{
+.schedule-tabs .tab-buttons li.red .month,
+.schedule-tabs .tab-buttons li.red .date{
 	color: #FF5757;
 }
 
 
-.schedule-tabs .tab-buttons li:nth-child(4n + 1).active-btn{
+.schedule-tabs .tab-buttons li.yellow.active-btn{
 	box-shadow: 0 0px 30px rgba(255,194,11,.30);
 	border: 1px solid #ffc20b;
 }
 
-.schedule-tabs .tab-buttons li:nth-child(4n + 2).active-btn{
+.schedule-tabs .tab-buttons li.green.active-btn{
 	box-shadow: 0 0px 30px rgba(64,203,180,.30);
 	border: 1px solid #C9E265;
 }
 
-.schedule-tabs .tab-buttons li:nth-child(4n + 3).active-btn{
+.schedule-tabs .tab-buttons li.blue.active-btn{
 	box-shadow: 0 0px 30px rgba(76,53,169,.30);
 	border: 1px solid #3860A5;
 }
 
-.schedule-tabs .tab-buttons li:nth-child(4n + 4).active-btn{
+.schedule-tabs .tab-buttons li.red.active-btn{
 	box-shadow: 0 0px 30px rgba(230,39,90,.30);
 	border: 1px solid #FF5757;
 }

@@ -297,7 +297,7 @@
 	}
 	
 	//Tabs Box
-	if($('.tabs-box').length){
+	if($('.tabs-box-onpage').length){
 		$('.tabs-box .tab-buttons .tab-btn').on('click', function(e) {
 			e.preventDefault();
 			var target = $($(this).attr('data-tab'));
